@@ -1,0 +1,181 @@
+@charset "utf-8";
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, p, blockquote, th, td {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 14px;
+    color: #333;
+    font-family: Microsoft YaHei, tahoma, arial, "Hiragino Sans GB", 宋体, sans-serif;
+    background: #fff;
+    line-height: 24px;
+}
+
+fieldset, img {
+    border: 0;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-size: 100%;
+}
+
+em {
+    font-style: normal;
+}
+
+input, button, select, textarea {
+    outline: none;
+}
+
+textarea {
+    resize: none; /*禁用了文本的拖拉，尤其在谷歌下*/
+}
+
+a {
+    color: #7c7c7c;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #65b725;
+    text-decoration: none;
+}
+
+del {
+    color: #939393;
+}
+
+.clearfix {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    clear: both;
+}
+
+.clearfix:after {
+    content: '';
+    visibility: hidden;
+    clear: both;
+    display: block;
+    height: 0;
+}
+
+.main_ds{
+    width:1200px;
+    margin:0px auto;
+    margin-top: 60px;
+}
+.imgnav{
+    overflow: hidden;
+    height: 35px;
+    padding: 0px 8px;
+    border: 1px solid #DDD;
+    background: #F7F7F7;
+    line-height: 35px;
+}
+.imgnav h2{
+    font: 14px/35px "微软雅黑";
+    height: 35px;
+    color: #666;
+}
+.return-imgpage {
+    float: right;
+    margin: 5px 0px 0px 5px;
+    padding: 3px 0px 0px;
+    line-height: 20px;
+    text-align: right;
+    color:#65B725;
+}
+
+.dragZoom{
+    width: 940px;
+    height:600px;
+    background: #F6F6F6;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+}
+.dragZoom img {
+    position: absolute;
+    width:600px;
+    height:600px;
+    left: 50%;
+    top:50%;
+    margin-top:-300px;
+    margin-left:-300px;
+    vertical-align: middle;
+}
+
+
+.imgshow-left{
+    width:940px;
+    float: left;
+}
+
+.imgshow-right{
+    width:232px;
+    float: right;
+    border:1px solid #65B725;
+    padding: 0px 0px 20px 12px;
+}
+.imgshow-right h2{
+    font-weight: 500;
+    color:#666;
+    font: 14px/35px "微软雅黑";
+    height: 35px;
+}
+.imgshow-ul{
+    overflow: hidden;
+
+}
+.imgshow-ul li{
+    cursor: pointer;
+    float: left;
+    border: 2px solid #dbdbdb;
+    margin-right: 12px;
+    margin-bottom: 12px;
+}
+.imgshow-ul li div{
+    height:100px;
+    width:100px;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    overflow: hidden;
+}
+.imgshow-ul li img{
+    max-width:100px;
+    max-height:100px;
+
+}
+.imgshow-ul li.on-drag{
+    border:2px solid #65B725;
+}
+
+.go-drag{
+    display: block;
+    height: 32px;
+    line-height: 32px;
+    width:180px;
+    background: #d10000;
+    color:#fff;
+    text-align: center;
+    margin:0px auto;
+}
+.go-drag:hover{
+    color:#fff;
+}
+.drap-price{
+    text-align:center;
+}
+
+.drap-price p em{
+    color:#d10000;
+}
+
+
